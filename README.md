@@ -1,7 +1,7 @@
 # Dashboard
 ## Dashboard feito em React usando TypeScript
 
-<p align="center">O Dashboard foi feito usando React, TypeScript para o desafio proposto pela Tradcking Trade.</p>
+<p>O Dashboard foi feito usando React, TypeScript para o desafio proposto pela Tradcking Trade.</p>
 
 <p>As bibliotecas utilizadas para o desenvolvimento da aplicação foram:</p>
 <p>nivo, styled-components, recharts, react-router-dom e o react-icons.</p>

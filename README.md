@@ -1,2 +1,2 @@
 # Dashboard
-Dashboard feito em React usando TypeScript
+## Dashboard feito em React usando TypeScript

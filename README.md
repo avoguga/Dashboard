@@ -3,10 +3,10 @@
 
 <p align="center">O Dashboard foi feito usando React, TypeScript para o desafio proposto pela Tradcking Trade.</p>
 
-As bibliotecas utilizadas para o desenvolvimento da aplicação foram:
-nivo, styled-components, recharts, react-router-dom e o react-icons.
+<p>As bibliotecas utilizadas para o desenvolvimento da aplicação foram:</p>
+<p>nivo, styled-components, recharts, react-router-dom e o react-icons.</p>
 
-O e-mail e a senha para a autenticação de login são:
+<p>O e-mail e a senha para a autenticação de login são:</p>
+<p>gustavo@email.com</p>
+<p>123</p>
 
-gustavo@email.com
-123

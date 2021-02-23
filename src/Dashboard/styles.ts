@@ -19,5 +19,7 @@ export const Content2 = styled.div`
     justify-content: space-between;
     
     flex-wrap: wrap;
-    
+    @media(max-width: 770px) {
+        width:100%
+    }
 `;

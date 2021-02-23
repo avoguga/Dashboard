@@ -11,7 +11,11 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: ${props => props.theme.colors.tertiary}
+    background-color: ${props => props.theme.colors.tertiary};
+    
+    @media(max-width: 770px) {
+        width:100%
+    }
 `;
 export const Title = styled.div`
     display: flex;
@@ -42,7 +46,7 @@ export const Input = styled.div`
 
     > input {
         height: 28px;
-        width: 300px;
+        width: 100%;
         border-radius: 50px;
         }
 `;

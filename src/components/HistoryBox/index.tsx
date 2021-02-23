@@ -63,9 +63,9 @@ const data = [
 const HistoryBox: React.FC = () => (
     
         <Container>
-          
-            <h2>Histórico de eventos</h2>
             <Controllers>
+            <h2>Histórico de eventos</h2>
+            
                 <SelectInput/>
                 <Engrenagem src={engrenagem} alt="Logo TrackingTrade"/>
             </Controllers>

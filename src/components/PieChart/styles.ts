@@ -12,7 +12,11 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: space-between;
 
-    background-color: ${props => props.theme.colors.tertiary}
+    background-color: ${props => props.theme.colors.tertiary};
+
+    @media(max-width: 770px) {
+        width:100%
+    }
 `;
 export const Title = styled.div`
     display: flex;

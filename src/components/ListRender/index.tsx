@@ -16,7 +16,6 @@ import List from '../List';
 const ListRender: React.FC = () => (
 
         <Container>
-          
           <Title>
             <SubTitle>
               <h2>Planos de ação</h2>

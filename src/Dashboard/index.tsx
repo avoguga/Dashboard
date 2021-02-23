@@ -16,7 +16,7 @@ import PieeChart from '../components/PieChart';
 import PieeChart2 from '../components/PieChart2';
 import PieeChart3 from '../components/PieChart3';
 import ListRender from '../components/ListRender';
-import Table from '../components/Taable';
+import TableRender from '../components/TableRender';
 
 
 const Dashboard: React.FC = () => {
@@ -31,7 +31,7 @@ const Dashboard: React.FC = () => {
                 <Content2>
                     <PieeChart2/>
                     <PieeChart3/>
-                    <Table/>
+                    <TableRender/>
                 </Content2>
                 <ListRender/>
             </Content1>

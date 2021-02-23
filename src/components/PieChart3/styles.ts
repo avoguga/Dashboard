@@ -12,24 +12,35 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: space-between;
 
-    background-color: ${props => props.theme.colors.tertiary}
+    background-color: ${props => props.theme.colors.tertiary};
+
+    @media(max-width: 770px) {
+        width:100%
+    }
 `;
 export const Title = styled.div`
     display: flex;
+    justify-content:space-between;
 `;
 
 export const SubTitle = styled.div`
->h4{
-       font-weight: normal;
-       opacity:0.4;
-       color: ${props => props.theme.colors.white}
-       
-   }
+    width: 90%;
+    >h2{
+        font-size:20px;
+    }
+    >h4{
+        
+        font-weight: normal;
+        opacity:0.4;
+        color: ${props => props.theme.colors.white}
+        
+    }
+
 `;
 
 export const Engrenagem = styled.img`
     height: 20px;
-    width: 20px;
-    margin-left: 100px;
+    width: 10%;
+
 `;
 

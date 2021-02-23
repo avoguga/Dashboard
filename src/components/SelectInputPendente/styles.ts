@@ -4,10 +4,7 @@ export const Container = styled.div`
 
     > select{
         height: 28px;
-        width: 300px;
+        width: 100%;
         border-radius: 100px;
-
     }
-    
 `;
-

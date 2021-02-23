@@ -7,15 +7,17 @@ export const Container = styled.li`
 
     list-style:none;
 
-    width: 310px;
-    height: 60px;
+    width: 100%;
+    height: 5%;
 
-    margin: 10px 0;
-    padding: 12px 10px;
+    margin: 0;
+    padding: 10px;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    overflow-x: scroll;
 
     position: relative;
 
@@ -38,7 +40,8 @@ export const Container = styled.li`
 `;
 
 export const Pendencias = styled.li`
-       
+    
+    
     padding-left: 10px;   
     > small {
         opacity: 0.6;
@@ -48,7 +51,7 @@ export const Pendencias = styled.li`
 export const Acao = styled.p`
     cursor: pointer;
     transition: all .3s;
-
+    
     margin-bottom: 7px;
 
     color: #9FD046;
@@ -57,4 +60,5 @@ export const Acao = styled.p`
 
     font-weight: bold;
     text-align: center;
+
 `;

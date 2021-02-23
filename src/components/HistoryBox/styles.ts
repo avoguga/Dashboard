@@ -5,7 +5,11 @@ export const Container = styled.div`
     width: 66%;
     margin: 10px 0;
     border-radius: 5px;
-    background-color: ${props => props.theme.colors.tertiary}
+    background-color: ${props => props.theme.colors.tertiary};
+
+    @media(max-width: 770px) {
+        width:100%
+    }
     
 
 `;
@@ -18,8 +22,11 @@ export const Grafico = styled.div`
 `;
 
 export const Controllers = styled.div`
-    padding-left: 405px;
     display: flex;
+    >h2{
+        width:60%
+    }
+    
 `;
 export const Engrenagem = styled.img`
     height: 20px;
